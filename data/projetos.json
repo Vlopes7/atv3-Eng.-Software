@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Projeto Entrenova",
+    "descricao": "Uma plataforma web completa com frontend e backend. (Adicione aqui mais detalhes sobre o projeto).",
+    "tecnologias": "Node.js, React, Django, Supabase"
+  },
+  {
+    "id": 2,
+    "titulo": "Aplicação CRUD em Java",
+    "descricao": "Sistema de gerenciamento de desktop focado nas operações de Criar, Ler, Atualizar e Deletar dados.",
+    "tecnologias": "Java, JavaFX, MySQL"
+  },
+  {
+    "id": 3,
+    "titulo": "Site sobre Metodologia Ágil",
+    "descricao": "Projeto em grupo para criar um site educacional com o objetivo de explicar os conceitos e a aplicação de metodologias ágeis.",
+    "tecnologias": "HTML, CSS, JavaScript"
+  },
+  {
+    "id": 4,
+    "titulo": "IDE (Integrated Development Environment)",
+    "descricao": "Ferramenta de desenvolvimento (IDE) customizada, criada em equipe como projeto acadêmico.",
+    "tecnologias": "Java, (Outras bibliotecas)"
+  }
+]

@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #0C0D1E; 
+  scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap:40px;
+    font-family: "Teko", bold;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 2%;
+    margin-top: 1%;
+       
+}
+.nav-link{
+    color:#edebeb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    text-shadow: 0 0 9px #c7b6de, 0 0 16px #c9b6e4;
+    color: #edebeb;
+}
+h4{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #b3b5db;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+#nome{
+    color:#ffffff;
+    font-size:95px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 0px;
+    text-shadow: 0 0 4px #b3b5db, 0 0 6px #c9b6e4;
+    margin-bottom: 0px;
+    
+}
+h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #b3b5db;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 330px;
+    margin-top: 0px;
+    
+}
+
+.apresentacao {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0C0D1E;
+}
+
+#chuva {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+.sobre-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  font-size: 23px;
+  margin: 120px auto 0 auto; 
+  width: 900px;
+
+}
+.foto-perfil {
+  width: 200px;
+  height: 180px;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 2px solid #c9b6e4;
+  box-shadow: 
+    0 0 5px #c9b6e4,
+    0 0 15px #b794f4,
+    0 0 20px #a26eea;
+}
+
+.sobre-texto {
+  max-width: 700px;
+}
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center; 
+}
+
+.card {
+  width: 260px;
+  min-height: 190px; 
+  background-color: #141527;
+  border: 2px solid #c9b6e4;
+  border-radius: 15px;
+  box-shadow:
+    0 0 3px #c9b6e4,
+    0 0 6px #b794f4,
+    0 0 9px #a26eea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow:
+    0 0 5px #c9b6e4,
+    0 0 15px #b794f4,
+    0 0 20px #a26eea;
+}
+
+.projeto-container{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content:center;
+  align-items: center; 
+}
+
+.projeto-card{
+  color:#fff;
+  width: 300px;
+  height: 450px; 
+  background-color: #141527;
+  border: 2px solid #c9b6e4;
+  border-radius: 15px;
+  box-shadow:
+    0 0 3px #c9b6e4,
+    0 0 6px #b794f4,
+    0 0 9px #a26eea;
+  padding: 10px;
+  gap: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.projeto-card:hover {
+  transform: scale(1.03);
+  box-shadow:
+    0 0 5px #c9b6e4,
+    0 0 15px #b794f4,
+    0 0 20px #a26eea;
+}
+.tec-label {
+  margin-top: 5px;
+  color: #b3b5db;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.tec-nomes {
+  color: #e6e3ff;
+  font-size: 15px;
+  margin: 0;  
+}
+
+.contato-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.contato-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: 2px solid #c9b6e4; 
+  border-radius: 50%; 
+  color: #fff; 
+  font-size: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contato-link:hover {
+  transform: scale(1.1);
+  box-shadow:
+    0 0 5px #c9b6e4,
+    0 0 15px #b794f4,
+    0 0 20px #a26eea;
+}

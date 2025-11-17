@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nomeHabilidade": "Linguagens",
+    "habilidade": "Java, Python, JavaScript, TypeScript"
+  },
+  {
+    "id": 2,
+    "nomeHabilidade": "Frameworks Backend",
+    "habilidade": "Spring Boot, Node.js, Express, Django"
+  },
+  {
+    "id": 3,
+    "nomeHabilidade": "Banco de Dados",
+    "habilidade": "PostgreSQL, MySQL, MongoDB, Redis"
+  }
+]
